@@ -4,9 +4,182 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>21-day chellange</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    
+     <!--========== SCROLL TOP ==========-->
+     <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="./index.html" class="nav__logo">Screen-Free Meals</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="./index.html" class="nav__link active-link">Homepage</a></li>
+                    <li class="nav__item"><a href="./challenge.html" class="nav__link">21-day challenge</a></li>
+                    <li class="nav__item"><a href="./forum.html" class="nav__link">Forum</a></li>
+                    <li class="nav__item"><a href="./contact.html" class="nav__link">Contact us</a></li>
+
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li> &nbsp;
+                    <li><i class='bx bx-user' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">21-Day Challenge</h1>
+                    <h2 class="home__subtitle">Try the best food of <br> the week <br>without screens</h2>
+                    <a href="./chellange.html" class="button">Let's Goooo</a>
+                </div>
+
+                <img src="assets/img/picture_1.png" alt="" class="home__img">
+            </div>
+        </section>
+        
+        <!--========== ABOUT ==========-->
+        <section class="about section bd-container" id="about">
+            <div class="about__container  bd-grid">
+                <div class="about__data">
+                    <span class="section-subtitle about__initial">Parental Stress Level Test</span>
+                    <h2 class="section-title about__initial"> Take Parental Stress Level Test</h2>
+                    <p class="about__description">before and after the challenge</p>
+                    <a href="./test.html" class="button">Parental Stress Level</a>
+                </div>
+
+                <img src="assets/img/picture_2.png" alt="" class="about__img">
+            </div>
+        </section>
+
+        <!--========== SERVICES ==========-->
+        <section class="services section bd-container" id="services">
+            <span class="section-subtitle">Benefits</span>
+            <h2 class="section-title">What you will get:</h2>
+
+            <div class="services__container  bd-grid">
+                <div class="services__content">
+                   <img src="./assets/img/consulting (1).png" alt="" class="svg_icons">
+                    <h3 class="services__title">Daily Expert Tips</h3>
+                    <p class="services__description">Get professional guidance and actionable steps to make mealtime screen-free and mindful</p>
+                </div>
+
+                <div class="services__content">
+                    <img src="./assets/img/community.png" alt="" class="svg_icons2">
+                    <h3 class="services__title">Community & Support</h3>
+                    <p class="services__description"> Connect with other parents, share experiences, and stay motivated throughout the journey</p>
+                </div>
+
+                <div class="services__content">
+                    <img src="./assets/img/clipboard.png" alt="" class="svg_icons3">
+                    <h3 class="services__title">Track Your Progress</h3>
+                    <p class="services__description">Take the <a href="./test.html"><strong>Parental Stress Level Test</strong></a> before and after the challenge to see real improvements in your family’s habit</p>
+                </div>
+            </div>
+        </section>
+
+        <!--========== MENU ==========-->
+        <section class="menu section bd-container" id="menu">
+            <span class="section-subtitle">Special</span>
+            <h2 class="section-title">Meet Our Experts</h2>
+
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="assets/img/psycho1.jpg" alt="" class="menu__img">
+                    <h3 class="menu__name">Anna Alison</h3>
+                    <span class="menu__detail">Professional children pyschologist</span>
+                    <span class="menu__preci">15+ years experience</span>
+                    <a href="./contact.html" class="button menu__button"><i class='bx bx-phone'></i></a>
+                </div>
+
+                <div class="menu__content">
+                    <img src="assets/img/psycho2.webp" alt="" class="menu__img">
+                    <h3 class="menu__name">Jasmin Rafik</h3>
+                    <span class="menu__detail">Under school ages children psychologist</span>
+                    <span class="menu__preci">17+ years experience</span>
+                    <a href="./contact.html" class="button menu__button"><i class='bx bx-phone'></i></a>
+                </div>
+                
+                <div class="menu__content">
+                    <img src="assets/img/pyscho3.jpg" alt="" class="menu__img">
+                    <h3 class="menu__name">Natalya Alexander</h3>
+                    <span class="menu__detail">Family psychologist</span>
+                    <span class="menu__preci">12+ years experience</span>
+                    <a href="./contact.html" class="button menu__button"><i class='bx bx-phone'></i></a>
+                </div>
+            </div>
+        </section>
+
+        
+        <!--========== CONTACT US ==========-->
+        <section class="contact section bd-container" id="contact">
+            <div class="contact__container bd-grid">
+                <div class="contact__data">
+                    <span class="section-subtitle contact__initial">Let's talk</span>
+                    <h2 class="section-title contact__initial">Contact us</h2>
+                    <p class="contact__description">If you want to talk about the situation, or if you have any problem, feel free to contact with us</p>
+                </div>
+
+                <div class="contact__button">
+                    <a href="./contact.html" class="button">Contact us now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+        <div class="footer__container bd-grid">
+            <div class="footer__content">
+                <a href="./index.html" class="nav__logo">Screen-Free Meal</a>
+                <span class="footer__description">Challenge</span>
+                <div>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-youtube'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-telegram'></i></a>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">What we have</h3>
+                <ul>
+                    <li><a href="./index.html" class="footer__link">Homepage</a></li>
+                    <li><a href="./challenge.html" class="footer__link">21-day challenge</a></li>
+                    <li><a href="./test.html" class="footer__link">Parental stress level</a></li>
+                    <li><a href="./forum.html" class="footer__link">Forum</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Contact Us</h3>
+                <ul>
+                    <li>Tashkent - Uzbekistan</li>
+                    <li>+998-90-123-45-67</li>
+                    <li>service.free.meals@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
